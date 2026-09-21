@@ -66,10 +66,20 @@ Key areas included:
 
 ```text
 Supply-Chain-Visibility-System/
-│
+├── Dashboard/
+│   ├── README.md
+│   └── Supply-Chain-Visibility-System.pbix
 ├── Documentation/
+│   └── Complete-Project-Documentation.pdf
 ├── Milestone-1/
+│   ├── README.md
+│   └── Screenshots/
+│       ├── M1-Dashboard.png
+│       └── M1-Data-Model.png
 ├── Milestone-2/
-├── Milestone-3/
-├── Milestone-4/
-└── Data/
+│   ├── README.md
+│   └── Screenshots/
+│       └── M2-Dashboard.png
+├── LICENSE
+└── README.md
+```
