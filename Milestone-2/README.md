@@ -1,4 +1,4 @@
-# Milestone 2 — Operational and Supply Chain Analytics
+# Milestone 2 — Inventory & Delivery Analytics
 
 ## Overview
 
