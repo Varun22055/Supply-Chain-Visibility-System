@@ -26,8 +26,8 @@ The project is developed progressively through multiple milestones, with each mi
 |-----------|-------|--------|
 | Milestone 1 | Data Modeling & KPI Foundation | Completed |
 | Milestone 2 | Inventory & Delivery Analytics | Completed |
-| Milestone 3 | Supplier & Transportation Analytics | Upcoming |
-| Milestone 4 | Warehouse Analytics & Final Dashboard | Upcoming |
+| Milestone 3 | Supplier & Transportation Analytics | Completed |
+| Milestone 4 | Warehouse Analytics & Final Dashboard | Completed |
 
 ## Milestone 1
 
@@ -62,24 +62,72 @@ Key areas included:
 - Drill-down analysis
 - Interactive filtering
 
+## Milestone 3
+
+Milestone 3 focused on supplier and transportation analytics using the available vessel movement data.
+
+Key areas included:
+
+- Transportation cost estimation
+- Cost per kilometer analysis
+- Movement analysis
+- Active movement rate
+- Average active distance per vessel
+- Estimated transportation cost per vessel
+- Transportation-related KPI development
+- Interactive filtering and dashboard analysis
+
+The source AIS dataset does not contain actual supplier, carrier, transportation cost, shipment cost, or quality score fields. Therefore, transportation-related elements were adapted using the available vessel movement data and an assumed cost-per-kilometer value.
+
+## Milestone 4
+
+Milestone 4 completed the project with warehouse-zone analysis, an executive overview, and dashboard validation.
+
+Key areas included:
+
+- Destination zone analysis
+- Movement records by destination zone
+- Active movement rate by destination zone
+- ETA variability analysis
+- Vessel type analysis
+- Vessel speed and ETA analysis
+- Supply chain executive overview
+- ETA data completeness
+- Estimated transportation cost
+- Dashboard performance and validation
+- Final dashboard documentation
+
+Destination clusters were used as proxy operational zones because the source AIS dataset does not contain actual warehouse information.
+
 ## Repository Structure
 
 ```text
 Supply-Chain-Visibility-System/
+│
 ├── Dashboard/
 │   ├── README.md
 │   └── Supply-Chain-Visibility-System.pbix
+│
 ├── Documentation/
 │   └── Complete-Project-Documentation.pdf
+│
 ├── Milestone-1/
-│   ├── README.md
 │   └── Screenshots/
-│       ├── M1-Dashboard.png
-│       └── M1-Data-Model.png
+│
 ├── Milestone-2/
-│   ├── README.md
 │   └── Screenshots/
-│       └── M2-Dashboard.png
+│
+├── Milestone-3/
+│   ├── Screenshots/
+│   │   └── M3-Dashboard.png
+│   └── README.md
+│
+├── Milestone-4/
+│   ├── Screenshots/
+│   │   ├── M4-Page-1.png
+│   │   ├── M4-Page-2.png
+│   │   └── M4-Page-3.png
+│   └── README.md
+│
 ├── LICENSE
 └── README.md
-```
