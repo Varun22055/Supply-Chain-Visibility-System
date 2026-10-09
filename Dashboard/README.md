@@ -1,12 +1,36 @@
 # Power BI Dashboard
 
-This folder contains the Power BI dashboard developed for the Supply Chain Visibility System.
+This folder contains the final Power BI dashboard for the Supply Chain Visibility System with Optimization Analytics project.
 
-The Power BI file contains the dashboards developed across the completed milestones.
+The Power BI report was developed progressively across four milestones, with each milestone extending the existing data model, DAX measures, and dashboard analysis.
 
-## Current Dashboard Pages
+## Final Dashboard
 
-- Page 1 — Milestone 1: Data Modeling & KPI Foundation
-- Page 2 — Milestone 2: Operational and Supply Chain Analytics
+The final Power BI report contains the completed analysis from all four milestones:
 
-The dashboard will be extended further as Milestone 3 and Milestone 4 are completed.
+- Milestone 1 – Data Modeling & KPI Foundation
+- Milestone 2 – Inventory & Delivery Analytics
+- Milestone 3 – Supplier & Transportation Analytics
+- Milestone 4 – Warehouse Analytics & Final Dashboard
+
+## Power BI File
+
+The complete Power BI report is available in this folder:
+
+`Supply-Chain-Visibility-System.pbix`
+
+## Tools Used
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
+
+## Dataset Note
+
+The project uses AIS vessel movement data. The source dataset does not contain actual warehouse, supplier, carrier, or transportation-cost records.
+
+Therefore, destination clusters were used as proxy operational zones, while transportation costs were estimated using an assumed cost-per-kilometer value.
+
+All four milestones have been completed and the PBIX file contains the final project dashboard.
